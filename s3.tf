@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "terraform-remote-state-311141558069-2026"
+  bucket = "USER-BUCKET"
 }
 
 resource "aws_s3_bucket_versioning" "terraform_state" {
